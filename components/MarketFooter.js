@@ -9,14 +9,14 @@ import { MdPhone } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
 
 
-function Footer() {
-    const pathname = usePathname()
+function MarketFooter() {
+    const pathname = usePathname();
     return (
 
         <>
             <Container fluid className="px-0">
                 <ScrollToTop smooth />
-                <Container className="wbg-main px-4" fluid>
+                {/* <Container className="wbg-main px-4" fluid>
                     <Row className="px-4">
                         <Col xs={2} className="px-4">
                             <LazyLoadImage
@@ -26,7 +26,7 @@ function Footer() {
                         </Col>
                         <Col xs={10}></Col>
                     </Row>
-                </Container>
+                </Container> */}
 
                 <Container className="wbg-footer px-4" fluid>
                     <Row className="pt-4">
@@ -101,4 +101,4 @@ function Footer() {
 
 }
 
-export default Footer;
+export default MarketFooter;
