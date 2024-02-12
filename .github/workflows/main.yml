@@ -18,4 +18,4 @@ jobs:
 
           script: |
             cd /home/react/wv-react
-            echo "logged in successfully"
+            echo $USER . " logged in successfully"
